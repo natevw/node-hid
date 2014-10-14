@@ -18,8 +18,7 @@
     "hidapi"
   ],
   "scripts": {
-    "preupdate": "sh get-hidapi.sh",
-    "preinstall": "sh get-hidapi.sh"
+    "prepublish": "sh get-hidapi.sh"
   },
   "main": "./index.js",
   "engines": {
