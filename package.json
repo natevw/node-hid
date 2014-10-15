@@ -17,7 +17,9 @@
   "bundleDependencies": [
     "hidapi"
   ],
-  "scripts": {},
+  "scripts": {
+    "preinstall" : "git submodule update --init && node-gyp rebuild"
+  },
   "main": "./index.js",
   "engines": {
     "node": ">=0.8.0"
